@@ -1,4 +1,5 @@
-﻿using DotnetLearning; // Import the NAMESPACE, not the class
+﻿using DotnetLearning;
+using Swapnumbers; // Import the NAMESPACE, not the class
 
 class Program
 {
@@ -7,5 +8,6 @@ class Program
         Console.WriteLine("main method bata call vako");
         // Now you can call the class inside that namespace
         TypeConversion.MyLogic(); 
+        Swapnumbers.SwapTwoNumbers();
     }
 }
