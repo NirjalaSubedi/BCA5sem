@@ -1,10 +1,11 @@
-﻿using Program; // Mathi namespace import garne
+﻿using DotnetLearning; // Import the NAMESPACE, not the class
 
 class Program
 {
     static void Main(string[] args)
     {
-        // Typeconversion class ko method lai call gareko
-        Typeconversion.MyLogic(); 
+        Console.WriteLine("main method bata call vako");
+        // Now you can call the class inside that namespace
+        TypeConversion.MyLogic(); 
     }
 }

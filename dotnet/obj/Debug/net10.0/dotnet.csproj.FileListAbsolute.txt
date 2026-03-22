@@ -12,3 +12,4 @@ C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\refint\dotn
 C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\dotnet.pdb
 C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\dotnet.genruntimeconfig.cache
 C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\ref\dotnet.dll
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\dotnet.sourcelink.json

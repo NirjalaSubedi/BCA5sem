@@ -1,10 +1,9 @@
-namespace Typeconversion;
+namespace DotnetLearning; // Define a namespace
 
-class Typeconversion
+class TypeConversion // Class name
 {
-    // static rakhema direct class ko naam le call garna milchha
     public static void MyLogic() 
     {
-        Console.WriteLine("hello world\n Iam learning c#");
+        Console.WriteLine("Hello World!\nI am learning C#");
     }
 }
