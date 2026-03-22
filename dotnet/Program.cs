@@ -8,6 +8,6 @@ class Program
         Console.WriteLine("main method bata call vako");
         // Now you can call the class inside that namespace
         TypeConversion.MyLogic(); 
-        Swapnumbers.SwapTwoNumbers();
+        Swapnumbers.Swap.SwapTwoNumbers();
     }
 }
