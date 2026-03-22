@@ -13,4 +13,11 @@ namespace Swapnumbers
 
         }
     }
+    class SwapWithoutUsingThirdVariable
+    {
+        public static void SwapTwoNumbers()
+        {
+            
+        }
+    }
 }
