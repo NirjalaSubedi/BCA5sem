@@ -9,5 +9,6 @@ class Program
         // Now you can call the class inside that namespace
         TypeConversion.MyLogic(); 
         Swapnumbers.Swap.SwapTwoNumbers();
+        Swapnumbers.SwapWithoutUsingThirdVariable.SwapTwoNumbers();
     }
 }
