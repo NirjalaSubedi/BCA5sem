@@ -1,0 +1,14 @@
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\bin\Debug\net10.0\dotnet.exe
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\bin\Debug\net10.0\dotnet.deps.json
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\bin\Debug\net10.0\dotnet.runtimeconfig.json
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\bin\Debug\net10.0\dotnet.dll
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\bin\Debug\net10.0\dotnet.pdb
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\dotnet.AssemblyInfoInputs.cache
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\dotnet.AssemblyInfo.cs
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\dotnet.csproj.CoreCompileInputs.cache
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\dotnet.dll
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\refint\dotnet.dll
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\dotnet.pdb
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\dotnet.genruntimeconfig.cache
+C:\Users\Nirjala\OneDrive\Documents\BCA5sem\dotnet\obj\Debug\net10.0\ref\dotnet.dll
