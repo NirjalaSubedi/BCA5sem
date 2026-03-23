@@ -13,7 +13,9 @@ class Program
         //Swapnumbers.Swap.SwapTwoNumbers();
         //Swapnumbers.SwapWithoutUsingThirdVariable.SwapTwoNumbers();
         //YourName.DisplayName();
-        ResumeBuilder.GenerateResume("nirjala","c#");
+        //ResumeBuilder.GenerateResume("nirjala","c#");
+        SwaptwoString.SwapString();
+
 
 
     }
