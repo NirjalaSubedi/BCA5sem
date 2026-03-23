@@ -26,4 +26,12 @@ namespace Swapnumbers
             Console.WriteLine("num1\t"+num1+"\tnum2\t"+num2);
         }
     }
+
+    class SwaptwoString
+    {
+        public static void SwapString()
+        {
+            
+        }
+    }
 }
