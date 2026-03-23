@@ -1,3 +1,4 @@
+using System.Text;
 namespace Swapnumbers
 {
     class Swap{
@@ -30,10 +31,13 @@ namespace Swapnumbers
     class SwaptwoString
     {
         public static void SwapString()
-        {
-            string str1="nirjala";
+        {   string str1="nirjala";
             string str2="subedi";
-            
+            str1=str1+str2;
+            str2=str1.Substring(0,str1.Length-str2.Length);
+            str1=str1.Substring(str2.Length);
+            Console.WriteLine($"after swaping {str1}{str2}");
+
         }
     }
 }
