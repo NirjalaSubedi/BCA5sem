@@ -31,6 +31,8 @@ namespace Swapnumbers
     {
         public static void SwapString()
         {
+            string str1="nirjala";
+            string str2="subedi";
             
         }
     }
