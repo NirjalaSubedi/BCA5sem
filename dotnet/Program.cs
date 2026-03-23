@@ -1,5 +1,6 @@
 ﻿using DotnetLearning;
 using Swapnumbers; // Import the NAMESPACE, not the class
+using namedisplay;
 
 class Program
 {
@@ -10,5 +11,7 @@ class Program
         TypeConversion.MyLogic(); 
         Swapnumbers.Swap.SwapTwoNumbers();
         Swapnumbers.SwapWithoutUsingThirdVariable.SwapTwoNumbers();
+        YourName.DisplayName();
+
     }
 }
