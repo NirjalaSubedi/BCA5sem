@@ -3,13 +3,15 @@ namespace HCFFinding{
     {
         public static void hcfoftwonumbers(int a ,int b)
         {
+            int num1=a;
+            int num2=b;
             while (b != 0)
             {
                 int temp=b;
                 b=a % b;
                 a=temp;
             }
-            Console.WriteLine(a);
+            Console.WriteLine($"HCF of {num1} {num2} is: {a}");
         }
 
         public static void hcfusingforloop()
