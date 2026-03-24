@@ -1,13 +1,22 @@
-class HCF 
-{
-    public static void hcfoftwonumbers(int a ,int b)
+namespace HCFFinding{
+    class HCF 
     {
-        while (b != 0)
+        public static void hcfoftwonumbers(int a ,int b)
         {
-            int temp=b;
-            b=a % b;
-            a=temp;
+            while (b != 0)
+            {
+                int temp=b;
+                b=a % b;
+                a=temp;
+            }
+            Console.WriteLine(a);
         }
-        Console.WriteLine(a);
+
+        public static void hcfusingforloop()
+        {
+            int a,b,hcf=1;
+            Console.WriteLine("enter first number");
+            a=Convert.ToInt32(Console.ReadLine());
+        }
     }
 }
