@@ -17,6 +17,7 @@ class Program
         //ResumeBuilder.GenerateResume("nirjala","c#");
         SwaptwoString.SwapString();
         HCF.hcfoftwonumbers(33,5);
+        HCF.hcfusingforloop();
 
 
 

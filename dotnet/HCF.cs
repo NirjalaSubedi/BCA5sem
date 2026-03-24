@@ -17,6 +17,17 @@ namespace HCFFinding{
             int a,b,hcf=1;
             Console.WriteLine("enter first number");
             a=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter second number");
+            b=Convert.ToInt32(Console.ReadLine());
+            for(int i = 2; i <= (a < b ? a : b); i++)
+            {
+                if (a % i == 0 && b % i == 0)
+                {
+                    hcf = i; 
+                } 
+            }
+            Console.WriteLine($"HCF IS {hcf}");
+
         }
     }
 }
