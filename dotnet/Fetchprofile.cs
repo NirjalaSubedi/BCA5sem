@@ -10,6 +10,7 @@ namespace fetchprofile
             sb.AppendLine("========Candidate==========");
             sb.AppendLine($"name:{name} skills: {skills}");
             Console.WriteLine(sb.ToString());
+            
 
         }
         static void taketitle()
