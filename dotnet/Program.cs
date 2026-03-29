@@ -18,7 +18,7 @@ class Program
         SwaptwoString.SwapString();
         HCF.hcfoftwonumbers(22,4);
         HCF.hcfusingforloop();
-
+        
 
 
     }

@@ -12,5 +12,17 @@ namespace fetchprofile
             Console.WriteLine(sb.ToString());
 
         }
+        static void taketitle()
+        {
+            Console.WriteLine("Enter title:");
+            String str=Console.ReadLine()??string.Empty;
+            StringBuilder sb=new StringBuilder();
+            bool wordStarted=true;
+            foreach(Char c in str)
+            {
+                
+            }
+
+        }
     }
 }
