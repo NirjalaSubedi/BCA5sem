@@ -7,3 +7,15 @@ namespace OverloadingConcept
 
     }
 }
+
+//overriding concept 
+namespace overriding{
+    class  A
+    {
+        public virtual int  calc(int a , int b)=>a*b;
+    }
+    class B : A
+    {
+        public override int calc(int a , int b)=>a*b;
+    }
+}
