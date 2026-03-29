@@ -4,6 +4,7 @@ using namedisplay;
 using fetchprofile;
 using HCFFinding;
 using OverloadingConcept;
+using overriding;
 
 
 class Program
@@ -22,6 +23,9 @@ class Program
         Overloading oL = new Overloading();
         Console.WriteLine($" a + b + c :{oL.add(1,2,4)}");
         Console.WriteLine($" a + b :{oL.add(1,4)}");
+
+        A inheritance = new A();
+        Console.WriteLine($" a * b:{inheritance.calc(1,2)}");
         
 
 
