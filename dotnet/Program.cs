@@ -26,6 +26,8 @@ class Program
 
         A inheritance = new A();
         Console.WriteLine($" a * b:{inheritance.calc(1,2)}");
+
+        Hello h = new Hello();
         
 
 
