@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Security.Cryptography.X509Certificates;
 
 namespace OverloadingConcept
 {
@@ -33,7 +34,7 @@ namespace inheritancePractice
             this.length= length;
             this.breadth= breadth;
         }
-        public void Display()
+        public virtual void Display()
         {
             Console.WriteLine($"Length and Breadth:{length*breadth}");
         }
@@ -43,9 +44,12 @@ namespace inheritancePractice
     {
         public Square(float side) : base(side, side)
         {
-            
-            Display();
         }
-      
+            
+            public override void Display()
+            {
+                Console.WriteLine($"display ko naya version create vayo {length*breadth}");
+            }
     }
+      
 }
