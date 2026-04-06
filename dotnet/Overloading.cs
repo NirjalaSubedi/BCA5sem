@@ -24,14 +24,16 @@ namespace inheritancePractice
 {
     public class Shape
     {
-        private float length;
-        private float breadth;
-        public int rectangle(float length, float breadth)
+        protected float length;
+        protected float breadth;
+        public Shape(float length, float breadth)
         {
             this.length= length;
             this.breadth= breadth;
-            int area = (int)(length * breadth); 
-            return area;
+        }
+        public void Display()
+        {
+            Console.WriteLine($"Length and Breadth:{length*breadth}");
         }
     }
 }
