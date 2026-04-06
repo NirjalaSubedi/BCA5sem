@@ -19,3 +19,19 @@ namespace overriding{
         public override int calc(int a , int b)=>a*b;
     }
 }
+
+namespace inheritancePractice
+{
+    public class Shape
+    {
+        private float length;
+        private float breadth;
+        public int rectangle(float length, float breadth)
+        {
+            this.length= length;
+            this.breadth= breadth;
+            int area = (int)(length * breadth); 
+            return area;
+        }
+    }
+}

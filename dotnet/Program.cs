@@ -5,6 +5,7 @@ using fetchprofile;
 using HCFFinding;
 using OverloadingConcept;
 using overriding;
+using properties;
 
 
 class Program
@@ -28,6 +29,9 @@ class Program
         Console.WriteLine($" a * b:{inheritance.calc(1,2)}");
 
         Hello h = new Hello();
+
+        GetSet s1=new GetSet();
+        s1.
         
 
 
