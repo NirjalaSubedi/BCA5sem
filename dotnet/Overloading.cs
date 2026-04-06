@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace OverloadingConcept
 {
     class Overloading
@@ -35,5 +37,15 @@ namespace inheritancePractice
         {
             Console.WriteLine($"Length and Breadth:{length*breadth}");
         }
+    }
+
+    public class Square : Shape
+    {
+        public Square(float side) : base(side, side)
+        {
+            
+            Display();
+        }
+      
     }
 }
