@@ -6,6 +6,7 @@ using HCFFinding;
 using OverloadingConcept;
 using overriding;
 using properties;
+using inheritancePractice;
 
 
 class Program
@@ -21,17 +22,22 @@ class Program
         //SwaptwoString.SwapString();
         //HCF.hcfoftwonumbers(22,4);
         //HCF.hcfusingforloop();
-        Overloading oL = new Overloading();
-        Console.WriteLine($" a + b + c :{oL.add(1,2,4)}");
-        Console.WriteLine($" a + b :{oL.add(1,4)}");
+        //Overloading oL = new Overloading();
+        //Console.WriteLine($" a + b + c :{oL.add(1,2,4)}");
+        //Console.WriteLine($" a + b :{oL.add(1,4)}");
 
-        A inheritance = new A();
-        Console.WriteLine($" a * b:{inheritance.calc(1,2)}");
+        //A inheritance = new A();
+        // Console.WriteLine($" a * b:{inheritance.calc(1,2)}");
 
-        Hello h = new Hello();
+        // Hello h = new Hello();
 
-        GetSet s1=new GetSet();
-        s1.
+        // GetSet s1=new GetSet();
+        
+        Square mySquare = new Square(5.0f);
+        mySquare.Display();
+
+
+
         
 
 
