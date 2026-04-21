@@ -33,8 +33,8 @@ class Program
 
         // GetSet s1=new GetSet();
         
-        Square mySquare = new Square(5.0f);
-        mySquare.Display();
+        //Square mySquare = new Square(5.0f);
+        //mySquare.Display();
 
 
 
