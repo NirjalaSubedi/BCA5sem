@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;//textinfo
 
 namespace MyExtensions
 {
@@ -12,6 +13,15 @@ namespace MyExtensions
             string[] words = str.Split(new char[] { ' ', '.', '?' }, StringSplitOptions.RemoveEmptyEntries);
             return words.Length;
         }
+
+        public static string GetTitleCase(this string str)
+        {
+            if (string.IsNullOrEmpty(str))
+                return str;
+
+            TextInfo textInfo = CultureInfo.CurrentCulture.TextInfo;
+
+            return textInfo.ToTitleCase(str.ToLower()); 
+        }
     }
-    
 }

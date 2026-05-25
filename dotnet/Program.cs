@@ -42,9 +42,12 @@ class Program
         //ExceptionHandlingDemo.Program.ExceptionHandling();
         //MyExtensions.StringExtensions.WordCount(" my name is nirjala");
 
-    string text = " my name is nirjala";
-    int totalWords = text.WordCount(); 
-    Console.WriteLine($"Total words: {totalWords}");
+    string nam = "my name is nirjala";
+
+    string titleCaseNam = nam.GetTitleCase();
+
+    Console.WriteLine($"Original: {nam}");
+    Console.WriteLine($"Title Case: {titleCaseNam}"); 
 
 
     }
