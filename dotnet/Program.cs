@@ -7,6 +7,8 @@ using OverloadingConcept;
 using overriding;
 using properties;
 using inheritancePractice;
+using ExceptionHandlingDemo;
+using MyExtensions;
 
 
 class Program
@@ -36,10 +38,15 @@ class Program
         //Square mySquare = new Square(5.0f);
         //mySquare.Display();
 
+    // Use Namespace.Class.Method
+        //ExceptionHandlingDemo.Program.ExceptionHandling();
+        //MyExtensions.StringExtensions.WordCount(" my name is nirjala");
 
-
-        
+    string text = " my name is nirjala";
+    int totalWords = text.WordCount(); 
+    Console.WriteLine($"Total words: {totalWords}");
 
 
     }
 }
+
