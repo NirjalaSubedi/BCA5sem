@@ -9,6 +9,7 @@ using properties;
 using inheritancePractice;
 using ExceptionHandlingDemo;
 using MyExtensions;
+using DelegateExample;
 
 
 class Program
@@ -42,12 +43,19 @@ class Program
         //ExceptionHandlingDemo.Program.ExceptionHandling();
         //MyExtensions.StringExtensions.WordCount(" my name is nirjala");
 
-    string nam = "my name is nirjala";
+    //string nam = "my name is nirjala";
 
-    string titleCaseNam = nam.GetTitleCase();
+    //string titleCaseNam = nam.GetTitleCase();
 
-    Console.WriteLine($"Original: {nam}");
-    Console.WriteLine($"Title Case: {titleCaseNam}"); 
+    //Console.WriteLine($"Original: {nam}");
+
+    CalculationDelegate del = new CalculationDelegate(DelegateExample.Program.Add);
+            
+            del(10, 5);
+
+            del = DelegateExample.Program.Multiply;
+            
+            del(10, 5);
 
 
     }
